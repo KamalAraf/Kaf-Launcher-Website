@@ -1,11 +1,64 @@
 <!doctype html>
-<html lang="it">
+<!--
+THESIS: Give Minecraft Java players a clear, text-first starting point for Kaf Launcher.
+OWN-WORLD: KafLab's cream, blush, paper, ink, and rose palette with plain type and thin dividers.
+STORY: Explain the launcher, link to the useful pages, and identify platform downloads as unavailable until verified.
+FIRST VIEWPORT: A simple wordmark, page navigation, one headline, one short description, and links to features and downloads.
+FORM: User-pinned ultra-minimal multi-page structure replaces the seed-assigned platform board; direct text list, no staged reveal. Seed 808f3c19.
+-->
+<html lang="en">
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Kaf Launcher</title>
+  <meta name="theme-color" content="#f7f1eb">
+  <meta name="description" content="Kaf Launcher helps you organize Minecraft Java instances, mods, and modpacks.">
+  <title>Kaf Launcher — Minecraft Java launcher</title>
+  <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-  <h1>Kaf Launcher</h1>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="wordmark" href="index.html">Kaf Launcher</a>
+      <nav aria-label="Main navigation">
+        <a href="index.html" aria-current="page">Home</a>
+        <a href="features.html">Features</a>
+        <a href="download.html">Downloads</a>
+        <a href="faq.html">FAQ</a>
+        <a href="changelog.html">Changelog</a>
+        <a href="support.html">Support</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container page-content" id="main">
+    <div class="page-heading">
+      <h1>A Minecraft Java launcher.</h1>
+      <p class="lead">Organize separate instances, manage mods and modpacks, and launch the setup you want to play.</p>
+      <p class="page-links"><a href="features.html">Explore features</a><a href="download.html">Platform downloads</a></p>
+    </div>
+    <div class="page-sections">
+      <section class="content-section" aria-labelledby="overview-title">
+        <h2 id="overview-title">Keep each setup its own.</h2>
+        <p>Kaf Launcher keeps instances and their game files organized, with support for Vanilla, Fabric, Quilt, Forge, and NeoForge.</p>
+      </section>
+      <section class="content-section" aria-labelledby="platform-note-title">
+        <h2 id="platform-note-title">Windows, macOS, and Linux</h2>
+        <p>Installer links and system requirements for each platform will be added when verified builds are available.</p>
+        <a href="download.html">View download status</a>
+      </section>
+    </div>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <span>Kaf Launcher</span>
+      <nav aria-label="Legal and help">
+        <a href="support.html">Support</a>
+        <a href="privacy.html">Privacy</a>
+        <a href="terms.html">Terms</a>
+      </nav>
+    </div>
+  </footer>
 </body>
 </html>

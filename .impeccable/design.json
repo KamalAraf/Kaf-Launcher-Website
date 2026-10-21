@@ -1,0 +1,50 @@
+{
+  "schemaVersion": 2,
+  "generatedAt": "2026-10-21T17:03:00.000Z",
+  "title": "Design System: Kaf Launcher Website",
+  "extensions": {
+    "breakpoints": [
+      {
+        "name": "compact-navigation",
+        "value": "700px"
+      }
+    ],
+    "narrative": {
+      "northStar": "The Quiet Launch Index",
+      "overview": "A small, direct guide to Kaf Launcher. Plain English and short routes connect product information, platform status, and practical help. Cream and blush surfaces, dark text, rose links, and thin dividers carry the KafLab palette into a text-only layout.",
+      "keyCharacteristics": [
+        "Text-first pages with short sections.",
+        "Shared, compact navigation.",
+        "KafLab's exact cream, blush, and rose palette."
+      ],
+      "rules": [
+        {
+          "name": "The Quiet Palette Rule",
+          "body": "Keep the KafLab palette intact and let text hierarchy, not decoration, distinguish content.",
+          "section": "colors"
+        },
+        {
+          "name": "The Plain Language Rule",
+          "body": "Keep headings descriptive and supporting copy short.",
+          "section": "typography"
+        },
+        {
+          "name": "The Flat Surface Rule",
+          "body": "Use palette and dividers for structure; do not add decorative shadows.",
+          "section": "elevation"
+        }
+      ],
+      "dos": [
+        "Do use the shared stylesheet and navigation across all pages.",
+        "Do preserve the KafLab palette and English-language copy.",
+        "Do leave unverified download and policy details as explicit placeholders."
+      ],
+      "donts": [
+        "Don't add product previews or decorative imagery without a new request.",
+        "Don't link to an installer before its build and requirements are verified.",
+        "Don't fill the page with cards, gradients, or decorative effects."
+      ]
+    }
+  },
+  "components": []
+}
